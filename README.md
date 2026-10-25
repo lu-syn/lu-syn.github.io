@@ -1,6 +1,6 @@
 # Luis Gonzalez — Personal Portfolio
 
-**Live site → [lu-syn.github.io/myWEBSITE](https://lu-syn.github.io/myWEBSITE/)**
+**Live site → [lu-syn.github.io/myWEBSITE](https://lu-syn.github.io/)**
 
 ---
 
@@ -26,12 +26,12 @@ Co-organized Brooklyn College's first in-person hackathon — 100+ participants,
 
 ## Experience
 
-| Role | Company | Period |
-|------|---------|--------|
-| Software Engineer | Sports Media Inc. (Remote) | Oct 2025 |
-| Instructor | iCAMP, New York NY | Jul 2024 – Aug 2025 |
-| Technician Intern | NYC Department of Education | Oct 2023 – Mar 2024 |
-| Technician Assistant | Chinese Methodist Center | Feb 2023 – May 2023 |
+| Role                 | Company                     | Period              |
+| -------------------- | --------------------------- | ------------------- |
+| Software Engineer    | Sports Media Inc. (Remote)  | Oct 2025            |
+| Instructor           | iCAMP, New York NY          | Jul 2024 – Aug 2025 |
+| Technician Intern    | NYC Department of Education | Oct 2023 – Mar 2024 |
+| Technician Assistant | Chinese Methodist Center    | Feb 2023 – May 2023 |
 
 ---
 
