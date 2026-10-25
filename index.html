@@ -549,7 +549,7 @@
         <div class="proj-info">
           <div class="proj-tag">Full-Stack Platform · 5 of 7 Phases Complete</div>
           <div class="proj-card-name">DIG Procurement System</div>
-          <div class="proj-card-desc">A full-stack platform replacing a commercial interior design firm's Excel-based procurement workflow end to end: pricing, client proposals, ordering, and delivery tracking. Outside warehouses record deliveries from their phones, with photos, and each one sees only its own work, enforced in the database. Built with AI-assisted development; every requirement validated against real company documents, and 250+ database checks proven to fail when a rule breaks.</div>
+          <div class="proj-card-desc">A full-stack platform replacing a commercial interior design firm's Excel-based procurement workflow end to end: pricing, client proposals, ordering, and delivery tracking. Outside warehouses record deliveries from their phones, with photos, and each one sees only its own work, enforced in the database. Built with AI-assisted development; every requirement validated against real company documents, and 280 database checks proven to fail when a rule breaks.</div>
           <div class="proj-pills">
             <span class="pill">Next.js</span>
             <span class="pill">TypeScript</span>
@@ -652,11 +652,12 @@
           <div class="exp-role">Software Engineer</div>
           <div class="exp-org">Design Implementation Group — Brooklyn, NY</div>
           <ul class="exp-bullets">
-            <li>Building a full-stack web application (Next.js, TypeScript, PostgreSQL/Supabase, Vercel) with AI-assisted development (Claude Code) to replace the company's Excel/Dropbox procurement workflow; authored the requirements, technical design, and a 79-entry decision log, validating requirements against real vendor quotes, proposals, and material lists.</li>
+            <li>Building a full-stack web application (Next.js, TypeScript, PostgreSQL/Supabase, Vercel) with AI-assisted development (Claude Code) to replace the company's Excel/Dropbox procurement workflow; authored the requirements, technical design, and an 86-entry decision log, validating requirements against real vendor quotes, proposals, and material lists.</li>
             <li>Designed the access model in PostgreSQL (Row-Level Security, column-level grants, scoped views, Storage policies) so pricing stays hidden from restricted roles and each outside warehouse partner sees only its own deliveries, even through direct API requests; closed an error-message data leak with security-barrier views.</li>
-            <li>Wrote the design doc for receiving partial deliveries and returns, then delivered it as a phone-first warehouse workflow (quantity-based receipts, damage tracking, photo capture, return pickups), verified with a real warehouse sign-in on a phone.</li>
-            <li>Implemented the pricing engine (inline-markup and overhead-and-profit modes, shared tax rate, shipping, tariff, margin), reproducing real proposals to the cent; built multi-step workflows (order creation, receipts, item replacement that keeps the client's approved price) as single transactions.</li>
-            <li>Grew the database test suite from 91 to 253 checks, using mutation testing to prove each check can fail; found and fixed issues including an open self-signup path, magic links defeated by email link-scanning, and a test silently blind to null values.</li>
+            <li>Wrote the design doc for receiving partial deliveries and returns, then delivered it as a phone-first warehouse workflow (quantity-based receipts, damage tracking, photo capture, return pickups), tested end to end on a phone with a warehouse account.</li>
+            <li>Implemented the pricing engine (inline and overhead-and-profit modes, a cost-plus markup helper, shared tax rate, shipping, tariff, margin), reproducing real proposals to the cent; built multi-step workflows (order creation, receipts, item replacement that keeps the client's approved price) as single transactions.</li>
+            <li>Grew the database test suite from 91 to 280 checks, using mutation testing to prove each check can fail; found and fixed issues including an open self-signup path, magic links defeated by email link-scanning, and a test silently blind to null values.</li>
+            <li>Audited the system against mass assignment with crafted API requests: confirmed outside users and warehouses were locked out, and closed 5 privilege gaps for internal roles in the database, including a way to un-approve a proposal and change its client price.</li>
           </ul>
         </div>
       </div>
@@ -664,12 +665,11 @@
       <div class="exp-item reveal d2">
         <div class="exp-date">Oct 2025</div>
         <div>
-          <div class="exp-role">Software Engineer</div>
+          <div class="exp-role">Software Engineering Intern</div>
           <div class="exp-org">Sports Media Inc. — Remote</div>
           <ul class="exp-bullets">
-            <li>Built a Looker Studio dashboard on Google BigQuery covering $2.7B in ticket revenue and 69M tickets sold.</li>
-            <li>Optimized SQL queries to clean and aggregate datasets, improving data refresh time by ~40%.</li>
-            <li>Streamlined data pipelines with the marketing analytics team, cutting reporting time by 80%.</li>
+            <li>Built a Looker Studio dashboard on Google BigQuery summarizing monthly performance across $2.7B in ticket revenue and 69M tickets sold for multiple sports teams.</li>
+            <li>Wrote SQL queries to clean, aggregate, and join ticketing datasets for monthly reporting with the marketing analytics team.</li>
           </ul>
         </div>
       </div>
